@@ -1,0 +1,1104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppealDetailDeffinition" xml:space="preserve">
+    <value>Указать детальное описание обращения</value>
+  </data>
+  <data name="AppealerContactNumber" xml:space="preserve">
+    <value>Контактный номер заявителя</value>
+  </data>
+  <data name="AppealerInfo" xml:space="preserve">
+    <value>Информация о заявителе</value>
+  </data>
+  <data name="AppealerLastName" xml:space="preserve">
+    <value>Отчество заявителя</value>
+  </data>
+  <data name="AppealerLivingAddress" xml:space="preserve">
+    <value>Место жительства</value>
+  </data>
+  <data name="AppealerLivingAddressForAnswer" xml:space="preserve">
+    <value>Введите адрес проживания для предоставления официального ответа</value>
+  </data>
+  <data name="AppealerName" xml:space="preserve">
+    <value>Имя заявителя</value>
+  </data>
+  <data name="AppealerOrganizationName" xml:space="preserve">
+    <value>Наименование организации</value>
+  </data>
+  <data name="AppealerSurname" xml:space="preserve">
+    <value>Фамилия заявителя</value>
+  </data>
+  <data name="AppealerType" xml:space="preserve">
+    <value>Тип заявителя</value>
+  </data>
+  <data name="AppealIncedentAddress" xml:space="preserve">
+    <value>Адрес проблемы</value>
+  </data>
+  <data name="AppealInformation" xml:space="preserve">
+    <value>Информация об обращении</value>
+  </data>
+  <data name="AppealText" xml:space="preserve">
+    <value>Текст обращения</value>
+  </data>
+  <data name="AppealType" xml:space="preserve">
+    <value>Вид обращения</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Вложение</value>
+  </data>
+  <data name="AttachmentAction" xml:space="preserve">
+    <value>Прикрепить файл</value>
+  </data>
+  <data name="AttachmentCaption" xml:space="preserve">
+    <value>Прикрепите к обращению файлы</value>
+  </data>
+  <data name="AttachmentDeffinition" xml:space="preserve">
+    <value>Для подтверждения фактов, указанных в обращении, Вы можете приложить файлы (фото, видео, копии документов и др.). Общий размер файлов не должен превышать 20 МБ</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="Commentary" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="Doublicate" xml:space="preserve">
+    <value>Дубликат</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>Не переводить</comment>
+  </data>
+  <data name="Flat" xml:space="preserve">
+    <value>Квартира</value>
+  </data>
+  <data name="House" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="IsResident" xml:space="preserve">
+    <value>Резидент РК</value>
+  </data>
+  <data name="Legal" xml:space="preserve">
+    <value>Юридическое лицо</value>
+  </data>
+  <data name="MapCaption" xml:space="preserve">
+    <value>При заполнении адреса, маркер на карте устанавливается автоматически. Если координаты не верны, Вы можете изменить их. Одинарный клик - устанавливает маркер.</value>
+  </data>
+  <data name="MapDeffinition" xml:space="preserve">
+    <value>Начните вводить адрес и система предложит варианты, либо укажите точку на карте.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Physical" xml:space="preserve">
+    <value>Физическое лицо</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Улица</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Микрорайон</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="AppealInstruction" xml:space="preserve">
+    <value>1. Общие положения 
+1.1. Настоящее Пользовательское соглашение (далее - Соглашение) регламентирует взаимоотношения между Владельцем/Администратором и Пользователем веб-портала Senim109 и его компонентов. 
+1.2. В настоящем Соглашении используются следующие понятия: 
+1) веб-портал Senim109 (далее – Портал) - информационная система, представляющая собой единое окно доступа ко всей информации по жизненным ситуациям; 
+2) компоненты Портала – части Портала, специализированные на предоставлении информации и (или) сервисов; 
+3) владелец/администратор Портала и его компонентов (далее – Владелец/Администратор) – Коммунальное государственное учреждение "Единый координационный центр" государственного учреждения "Управление информатизации, оказания государственных услуг и архивов Карагандинской области"; 
+4) пользователь Портала и его компонентов (далее - Пользователь) - любое физическое или юридическое лицо, принявшее условия настоящего Соглашения, зарегистрированное на Портале и в его компонентах, пользующееся информации предоставленной на Портале; 
+5) хеш-код – метод преобразования пароля по определенному алгоритму для обеспечения сохранности и защиты от взлома. 
+1.3. Все иные термины и определения, используемые в настоящем Соглашении, истолковываются в соответствии с действующим законодательством Республики Казахстан. 
+
+2. Предмет Соглашения 
+2.1. Настоящее Соглашение является публичной офертой. Получая доступ к материалам Портала и его компонентам, Пользователь считается присоединившимся и принявшим все условия настоящего Соглашения. 
+2.2. Владелец/Администратор вправе в любое время в одностороннем порядке изменять условия настоящего Соглашения. Такие изменения вступают в силу по истечении 3 (трех) календарных дней с момента размещения новой версии Соглашения на Портале, с одновременной утратой предыдущей версии Соглашения. 
+2.3. При несогласии Пользователя с внесенными изменениями он обязан отказаться от доступа к Порталу и его компонентам и прекратить использование материалов и сервисов Портала и его компонентов. 
+2.4. Использование компонентов Портала осуществляется Пользователем согласно инструкциям по их использованию, размещенным в Личном кабинете Портала. 
+2.5. Электронный адрес, указанный Пользователем в форме регистрации на Портале предназначен для получения уведомлений в случае: 
+1) подписки Пользователем на получение служебных уведомлений; 
+2) восстановления пароля, получения временного пароля; 
+3) получения сгенерированного нового пароля. 
+2.6. Подписывая настоящее Соглашение, Пользователь тем самым дает письменное согласие на сбор, обработку, хранение, выгрузку и использование его персональных данных и иной представленной Пользователем на Портале информации в целях улучшения качества предоставляемой информации. 
+
+3. Права и обязанности Сторон 
+3.1. Владелец/Администратор вправе: 
+3.1.1. В случае необходимости проверять достоверность введенных данных Пользователя, в том числе путем обращения в государственные органы и иные организации.
+3.1.2. В случае нарушения Пользователем условий настоящего Соглашения отказать в регистрации Пользователя, удалить или блокировать учетную запись Пользователя. 
+3.1.3. Направлять Пользователю уведомления информационного характера посредством коммуникационных технологий. 
+3.2. Владелец/Администратор обязан: 
+3.2.1. Обеспечить конфиденциальность персональных данных Пользователя путем недопущения их разглашения без согласия Пользователя или его законного представителя либо наличия иного законного основания. 
+3.2.2. Обеспечить функционирование Портала и его компонентов. 
+3.2.3. Сохранять в тайне от посторонних лиц, не связанных с процессом обмена данными, вверенный ему пароль, преобразованный и хранимый в системе в виде хеш-кода для доступа Пользователя, за исключением случаев, предусмотренных законодательством Республики Казахстан. 
+3.3. Пользователь обязан: 
+3.3.1. Предоставить Владельцу/Администратору точную и полную информацию по пунктам, предлагаемым в форме регистрации на Портале или при использовании его компонентов. 
+3.3.2. Не предпринимать действий, которые могут рассматриваться как нарушающие законодательство Республики Казахстан или нормы международного права, в том числе в сфере интеллектуальной собственности, авторских и/или смежных правах..</value>
+  </data>
+  <data name="btnClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="UserAgreement" xml:space="preserve">
+    <value>Пользователськое соглашение</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Введите адрес</value>
+  </data>
+  <data name="EnterAnswerForAppeal" xml:space="preserve">
+    <value>Введите текст ответа по обращению</value>
+  </data>
+  <data name="AppealAnswer" xml:space="preserve">
+    <value>Ответ</value>
+  </data>
+  <data name="AppealAnswerText" xml:space="preserve">
+    <value>Текст ответа</value>
+  </data>
+  <data name="AppealCategory" xml:space="preserve">
+    <value>Категория обращения</value>
+  </data>
+  <data name="AppealerBIN" xml:space="preserve">
+    <value>БИН заявителя</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Номер документа</value>
+  </data>
+  <data name="AppealerFullName" xml:space="preserve">
+    <value>ФИО заявителя</value>
+  </data>
+  <data name="AppealerIIN" xml:space="preserve">
+    <value>ИИН заявителя</value>
+  </data>
+  <data name="AppealTheme" xml:space="preserve">
+    <value>Тема обращения</value>
+  </data>
+  <data name="AttachmentActionText" xml:space="preserve">
+    <value>Нажмите чтобы добавить файлы</value>
+  </data>
+  <data name="btnAnswer" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="btnSendAppeal" xml:space="preserve">
+    <value>Отправить на проверку</value>
+  </data>
+  <data name="CaptionPlaceHolder" xml:space="preserve">
+    <value>Введите описание</value>
+  </data>
+  <data name="checkAnoutherAppeals" xml:space="preserve">
+    <value>Проверьте другие заявки пользователя</value>
+  </data>
+  <data name="DublicateAdd" xml:space="preserve">
+    <value>Связать с задачей как дубликат</value>
+  </data>
+  <data name="DublicateResultFalse" xml:space="preserve">
+    <value>Поиск дубликатов не дал результатов</value>
+  </data>
+  <data name="DublicateSearch" xml:space="preserve">
+    <value>Поиск похожих заявок</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="QuickAnswer" xml:space="preserve">
+    <value>Быстрый ответ</value>
+  </data>
+  <data name="RequiredFileds" xml:space="preserve">
+    <value>Введите данные обращения, обязательные для заполнения поля отмечены.</value>
+  </data>
+  <data name="AppealSend" xml:space="preserve">
+    <value>Подача обращения</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Сбросить значения</value>
+  </data>
+  <data name="CheckInfo" xml:space="preserve">
+    <value>Проверьте введеные данные</value>
+  </data>
+  <data name="GetPassword" xml:space="preserve">
+    <value>Получить пароль</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="btnCabinetLogin" xml:space="preserve">
+    <value>Войти в личный кабинет</value>
+  </data>
+  <data name="btnCreateAppeal" xml:space="preserve">
+    <value>Подать обращение</value>
+  </data>
+  <data name="btnEmployeeLogin" xml:space="preserve">
+    <value>Войти как сотрудник</value>
+  </data>
+  <data name="EmployeeLogin" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="FioAbbr" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="IinAbbr" xml:space="preserve">
+    <value>ИИН</value>
+  </data>
+  <data name="BinAbbr" xml:space="preserve">
+    <value>БИН</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="TroubleDescription" xml:space="preserve">
+    <value>Текст обращения</value>
+  </data>
+  <data name="IncidentAddress" xml:space="preserve">
+    <value>Адрес проблемы</value>
+  </data>
+  <data name="Kind" xml:space="preserve">
+    <value>Вид обращения</value>
+  </data>
+  <data name="ReceptionOfCitizens" xml:space="preserve">
+    <value>Прием граждан</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Необходимо заполнить это поле</value>
+  </data>
+  <data name="TroubleShortDescription" xml:space="preserve">
+    <value>Краткое содержание</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="TicketNumber" xml:space="preserve">
+    <value>НОМЕР ТАЛОНА</value>
+  </data>
+  <data name="WikiBase" xml:space="preserve">
+    <value>База знаний</value>
+  </data>
+  <data name="ApplicantFIO" xml:space="preserve">
+    <value>ФИО заявителя</value>
+  </data>
+  <data name="ApplicantIin" xml:space="preserve">
+    <value>ИИН заявителя</value>
+  </data>
+  <data name="CategoryRequired" xml:space="preserve">
+    <value>Необходимо выбрать категорию</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>СОГЛАСЕН</value>
+  </data>
+  <data name="AppealAccept" xml:space="preserve">
+    <value>Подтверждение обращения</value>
+  </data>
+  <data name="ApplicantType" xml:space="preserve">
+    <value>Тип заявителя</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Вложения</value>
+  </data>
+  <data name="AttachScanCopy" xml:space="preserve">
+    <value>Прикрепите скан-копию обращения</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="CancelTicket" xml:space="preserve">
+    <value>ОТМЕНИТЬ ТАЛОН</value>
+  </data>
+  <data name="CheckEnteredData" xml:space="preserve">
+    <value>ПРОВЕРЬТЕ ВВЕДЕНЫЕ ДАННЫЕ</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="CreateAppeal" xml:space="preserve">
+    <value>Подать обращение</value>
+  </data>
+  <data name="CreateFullAppeal" xml:space="preserve">
+    <value>Создание письменного обращения</value>
+  </data>
+  <data name="EnterCodeFromSms" xml:space="preserve">
+    <value>Введите код из sms-сообщения</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>ВЫЙТИ</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>ЭКСПОРТИРОВАТЬ</value>
+  </data>
+  <data name="IfDoesntGetSmsCode" xml:space="preserve">
+    <value>Если Вы не получили код в течении 2-3 минут, попробуйте снова</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ВОЙТИ</value>
+  </data>
+  <data name="Microdistrict" xml:space="preserve">
+    <value>М-район</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>ДАЛЕЕ</value>
+  </data>
+  <data name="NotAgree" xml:space="preserve">
+    <value>НЕ СОГЛАСЕН</value>
+  </data>
+  <data name="NotChoosen" xml:space="preserve">
+    <value>Не указан</value>
+  </data>
+  <data name="NotExists" xml:space="preserve">
+    <value>Отсутствуют</value>
+  </data>
+  <data name="OpenUserAgreement" xml:space="preserve">
+    <value>ОТКРЫТЬ ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</value>
+  </data>
+  <data name="RedirectTicket" xml:space="preserve">
+    <value>ПЕРЕНАЗНАЧИТЬ ТАЛОН</value>
+  </data>
+  <data name="StatusAway" xml:space="preserve">
+    <value>ОТОШЕЛ</value>
+  </data>
+  <data name="StatusDinner" xml:space="preserve">
+    <value>ОБЕД</value>
+  </data>
+  <data name="StatusOffline" xml:space="preserve">
+    <value>ЗАВЕРШЕНИЕ РАБОТЫ</value>
+  </data>
+  <data name="StatusOnline" xml:space="preserve">
+    <value>ГОТОВ</value>
+  </data>
+  <data name="ToMainPage" xml:space="preserve">
+    <value>НА ГЛАВНУЮ</value>
+  </data>
+  <data name="AtLeastOneNumberRequired" xml:space="preserve">
+    <value>Должен быть указан как минимум 1 номер</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="ActiveAppeals" xml:space="preserve">
+    <value>АКТИВНЫЕ ОБРАЩЕНИЯ ПОРТАЛА Senim109</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="AdditionalAbilities" xml:space="preserve">
+    <value>Доп. Возможности</value>
+  </data>
+  <data name="Additionally" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="AddressOnMap" xml:space="preserve">
+    <value>Адрес на карте</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="KaragandaDevCenter" xml:space="preserve">
+    <value>Единый координационный центр г. Караганды</value>
+  </data>
+  <data name="AnswerInAttachment" xml:space="preserve">
+    <value>Ответ во вложении</value>
+  </data>
+  <data name="AppealCard" xml:space="preserve">
+    <value>Карточка обращения</value>
+  </data>
+  <data name="AppealContent" xml:space="preserve">
+    <value>Содержание обращения</value>
+  </data>
+  <data name="AppealCreatedWithNumber" xml:space="preserve">
+    <value>Ваше обращение было принято под номером</value>
+  </data>
+  <data name="AppealCreateRights" xml:space="preserve">
+    <value>Правила подачи письменного обращения</value>
+  </data>
+  <data name="AppealData" xml:space="preserve">
+    <value>Данные по заявке</value>
+  </data>
+  <data name="AppealDataChange" xml:space="preserve">
+    <value>Изменения данных заявки</value>
+  </data>
+  <data name="AppealHistory" xml:space="preserve">
+    <value>История заявки</value>
+  </data>
+  <data name="AppealInfo" xml:space="preserve">
+    <value>Информация об обращении</value>
+  </data>
+  <data name="AppealJournal" xml:space="preserve">
+    <value>Журнал обращений</value>
+  </data>
+  <data name="ApplicantInfo" xml:space="preserve">
+    <value>Информация о заявителе</value>
+  </data>
+  <data name="AppliedToWork" xml:space="preserve">
+    <value>Принято в работу </value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="AreYouSureSendAppeal" xml:space="preserve">
+    <value>Вы действительно хотите отправить обращение на проверку?</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="ChooseExecutorFromList" xml:space="preserve">
+    <value>выберите из списка иполнителя</value>
+  </data>
+  <data name="ChooseYourPlace" xml:space="preserve">
+    <value>Укажите ваше место</value>
+  </data>
+  <data name="ColumnsVisibilitySetup" xml:space="preserve">
+    <value>Настройки отображения столбцов</value>
+  </data>
+  <data name="ColumsChooserDescription" xml:space="preserve">
+    <value>Галочка - означает, что колонка будем отображается, крест - нет</value>
+  </data>
+  <data name="ColumsChooserSetup" xml:space="preserve">
+    <value>Настройки отображения столбцов в таблице</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Сопроводительное письмо</value>
+  </data>
+  <data name="CreateAnotherOneQuestion" xml:space="preserve">
+    <value>Желаете ли Вы создать еще одно обращение от данного заявителя?</value>
+  </data>
+  <data name="CreateNewFilter" xml:space="preserve">
+    <value>Создать новый фильтр</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Дата подачи</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="DownloadRegistrationNotification" xml:space="preserve">
+    <value>Скачать извещение о регистрации</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditCategories" xml:space="preserve">
+    <value>Редактирование категорий</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="EvaluationOfService" xml:space="preserve">
+    <value>Оценка оказания услуги</value>
+  </data>
+  <data name="ExecutiveAgency" xml:space="preserve">
+    <value>Исполнительный орган</value>
+  </data>
+  <data name="Executor" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="ExpectedOperator" xml:space="preserve">
+    <value>Ожидаемый оператор</value>
+  </data>
+  <data name="FilterName" xml:space="preserve">
+    <value>Название фильтра </value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="LastChanges" xml:space="preserve">
+    <value>Последние изменения</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>Оценка</value>
+  </data>
+  <data name="MessageCameFrom" xml:space="preserve">
+    <value>Откуда поступило сообщение</value>
+  </data>
+  <data name="MyFilters" xml:space="preserve">
+    <value>Мои фильтры</value>
+  </data>
+  <data name="NameOfDocument" xml:space="preserve">
+    <value>Наименование документа</value>
+  </data>
+  <data name="NeedChangeStatusToReceptionCitizen" xml:space="preserve">
+    <value>Для приема граждан необходимо изменить статус</value>
+  </data>
+  <data name="NotAssigned" xml:space="preserve">
+    <value>Не назначен</value>
+  </data>
+  <data name="NotSpecified" xml:space="preserve">
+    <value>Не задан</value>
+  </data>
+  <data name="OperatorNotChoosen" xml:space="preserve">
+    <value>Оператор не выбран</value>
+  </data>
+  <data name="OutputDocuments" xml:space="preserve">
+    <value>Выходные документы</value>
+  </data>
+  <data name="PlannedDate" xml:space="preserve">
+    <value>Планируемый срок</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Приоритетность</value>
+  </data>
+  <data name="Redirect" xml:space="preserve">
+    <value>Перенаправить</value>
+  </data>
+  <data name="RegistrationNotification" xml:space="preserve">
+    <value>Извещение о регистрации</value>
+  </data>
+  <data name="RejectionLetter" xml:space="preserve">
+    <value>Отказное письмо</value>
+  </data>
+  <data name="ResetFilter" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ServiceInfo" xml:space="preserve">
+    <value>Служебная информация</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="TableSetupWindow" xml:space="preserve">
+    <value>Окно настройки таблицы</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Спасибо</value>
+  </data>
+  <data name="TicketRedirecting" xml:space="preserve">
+    <value>Переназначение талона</value>
+  </data>
+  <data name="TicketsMonitoring" xml:space="preserve">
+    <value>Мониторинг талонов</value>
+  </data>
+  <data name="Who" xml:space="preserve">
+    <value>Кто</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Рабочее место</value>
+  </data>
+  <data name="AppealStatusClosed" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="AppealStatusCreated" xml:space="preserve">
+    <value>Зарегистрировано</value>
+  </data>
+  <data name="AppealStatusInProcess" xml:space="preserve">
+    <value>Направлено в ИО</value>
+  </data>
+  <data name="AppealStatusOnEstimation" xml:space="preserve">
+    <value>Получен ответ</value>
+  </data>
+  <data name="AppealStatusCanceled" xml:space="preserve">
+    <value>Отклонена</value>
+  </data>
+  <data name="AppealStatusRevision" xml:space="preserve">
+    <value>На доработке</value>
+  </data>
+  <data name="AppealStatusQuickAnswer" xml:space="preserve">
+    <value>Предоставлен быстрый ответ</value>
+  </data>
+  <data name="TicketStatusCancelled" xml:space="preserve">
+    <value>Отменен</value>
+  </data>
+  <data name="TicketStatusClosed" xml:space="preserve">
+    <value>Закрыт</value>
+  </data>
+  <data name="TicketStatusHandledByOperator" xml:space="preserve">
+    <value>Обрабатывается оператором</value>
+  </data>
+  <data name="TicketStatusInQueue" xml:space="preserve">
+    <value>В очереди</value>
+  </data>
+  <data name="TicketStatusSentToOperator" xml:space="preserve">
+    <value>Направлен к оператору</value>
+  </data>
+  <data name="KindOfReceiveCallCenter" xml:space="preserve">
+    <value>По звонку</value>
+  </data>
+  <data name="KindOfReceiveOffice" xml:space="preserve">
+    <value>По талону</value>
+  </data>
+  <data name="KindOfReceivePortal" xml:space="preserve">
+    <value>С портала</value>
+  </data>
+  <data name="KindOfReceiveReception" xml:space="preserve">
+    <value>С ресепшена</value>
+  </data>
+  <data name="KindOfReceiveSocialNetwork" xml:space="preserve">
+    <value>Из соц. сети</value>
+  </data>
+  <data name="LegalShort" xml:space="preserve">
+    <value>Юр. Лицо</value>
+  </data>
+  <data name="PhysicalShort" xml:space="preserve">
+    <value>Физ. Лицо</value>
+  </data>
+  <data name="Resend" xml:space="preserve">
+    <value>Переотправить</value>
+  </data>
+  <data name="WillAvailableAfter1Minute" xml:space="preserve">
+    <value>Будет доступно через 1 минуту</value>
+  </data>
+  <data name="Cabinet" xml:space="preserve">
+    <value>Личный кабинет</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>Выберите категорию</value>
+  </data>
+  <data name="ChooseSubCategory" xml:space="preserve">
+    <value>Выберите подкатегорию</value>
+  </data>
+  <data name="FailedVerification" xml:space="preserve">
+    <value>не прошел проверку</value>
+  </data>
+  <data name="MakeAppeal" xml:space="preserve">
+    <value>Создать обращение</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="RequiredFieldFormat" xml:space="preserve">
+    <value>Поле "{0}" обязательно для заполнения</value>
+  </data>
+  <data name="RequiredMicrodistrictOrStreet" xml:space="preserve">
+    <value>Необходимо заполнить поле "Микрорайон" или "Улица"</value>
+  </data>
+  <data name="ViewAndEditUserPersonalData" xml:space="preserve">
+    <value>Просмотр и редактирование персональных данных пользователя</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Длина очереди</value>
+  </data>
+  <data name="BudgetaryFundsAreRequired" xml:space="preserve">
+    <value>Требуются ли бюджетные деньги</value>
+  </data>
+  <data name="IncedentArea" xml:space="preserve">
+    <value>Район проблемы</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Новый пароль</value>
+  </data>
+  <data name="Maslikhats" xml:space="preserve">
+    <value>Маслихаты</value>
+  </data>
+  <data name="ReceivedFrom" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Registrator" xml:space="preserve">
+    <value>Регистратор</value>
+  </data>
+  <data name="SignedWithEds" xml:space="preserve">
+    <value>Подписано ЭЦП</value>
+  </data>
+  <data name="CityAbbr" xml:space="preserve">
+    <value>г.</value>
+  </data>
+  <data name="AreaAbbr" xml:space="preserve">
+    <value>р.</value>
+  </data>
+  <data name="DistrictAbbr" xml:space="preserve">
+    <value>мкр.</value>
+  </data>
+  <data name="StreetAbbr" xml:space="preserve">
+    <value>ул.</value>
+  </data>
+  <data name="HouseAbbr" xml:space="preserve">
+    <value>д.</value>
+  </data>
+  <data name="FlatAbbr" xml:space="preserve">
+    <value>кв.</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Сменить пароль</value>
+  </data>
+  <data name="CodeFromSMS" xml:space="preserve">
+    <value>Код из SMS</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="DisplayAppPhNum" xml:space="preserve">
+    <value>Чтобы отображать заявки по номеру телефона</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="IinBin" xml:space="preserve">
+    <value>ИИН/БИН</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Неверные учетные данные</value>
+  </data>
+  <data name="More1SMSReauest" xml:space="preserve">
+    <value>В течении минуты было выполнено больше 1 запроса на отправку смс</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="PleaseWait_" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="SelectSertificate" xml:space="preserve">
+    <value>Выбрать сертификат</value>
+  </data>
+  <data name="SendVerirfiCode" xml:space="preserve">
+    <value>Отправить проверочный код</value>
+  </data>
+  <data name="SentCodeToPhoneNum" xml:space="preserve">
+    <value>На указанный номер телефона отправлен код подтверждения</value>
+  </data>
+  <data name="SnapPhoneNumber" xml:space="preserve">
+    <value>Привязать номер телефона</value>
+  </data>
+  <data name="SpecifyAuthSertificate" xml:space="preserve">
+    <value>Для того чтобы привязать ИИН Вам необходимо указать сертификат Auth</value>
+  </data>
+  <data name="ThinkPassToSignIn" xml:space="preserve">
+    <value>Придумайте пароль для входа</value>
+  </data>
+  <data name="TieInIin" xml:space="preserve">
+    <value>Привязать ИИН</value>
+  </data>
+  <data name="ToDisplayOrderIin" xml:space="preserve">
+    <value>Чтобы отображать заявки по ИИН</value>
+  </data>
+  <data name="AllReferences" xml:space="preserve">
+    <value>Все обращения</value>
+  </data>
+  <data name="AnswerHasNot" xml:space="preserve">
+    <value>Ответ еще не был предоставлен</value>
+  </data>
+  <data name="AnswerRecevid" xml:space="preserve">
+    <value>Получен ответ</value>
+  </data>
+  <data name="ApplicationNum" xml:space="preserve">
+    <value>Номер заявки</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Архив</value>
+  </data>
+  <data name="AttachCopyAnswer" xml:space="preserve">
+    <value>Прикрепить копию ответа</value>
+  </data>
+  <data name="ByEDS" xml:space="preserve">
+    <value>По ЭЦП</value>
+  </data>
+  <data name="ByPhone" xml:space="preserve">
+    <value>По телефону</value>
+  </data>
+  <data name="Clone" xml:space="preserve">
+    <value>Клонировать</value>
+  </data>
+  <data name="DeletingOrders" xml:space="preserve">
+    <value>Удаление заявок</value>
+  </data>
+  <data name="Disapproved" xml:space="preserve">
+    <value>Отклонена</value>
+  </data>
+  <data name="EditOfAppData" xml:space="preserve">
+    <value>Редактирование данных по заявке</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Срок истекает</value>
+  </data>
+  <data name="ForgotYouPassword" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="GetSMSCode" xml:space="preserve">
+    <value>Получить смс код</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Входящие</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="InTheWork" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="IsDisapproved" xml:space="preserve">
+    <value>Отклоненные</value>
+  </data>
+  <data name="LiginToYourAccount" xml:space="preserve">
+    <value>Вход в личный кабинет</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="LinkEdited" xml:space="preserve">
+    <value>Ссылка редактируется в поле Текст обращения</value>
+  </data>
+  <data name="Overdue" xml:space="preserve">
+    <value>Просроченные</value>
+  </data>
+  <data name="SentPhoneEnterCode" xml:space="preserve">
+    <value>На указанный номер телефона отправлен код. Введите код и придумайте новый пароль</value>
+  </data>
+  <data name="SentToIO" xml:space="preserve">
+    <value>Отправлено в ИО</value>
+  </data>
+  <data name="SignUpSignIn" xml:space="preserve">
+    <value>Зарегистрироваться и войти</value>
+  </data>
+  <data name="SingnInNewPassword" xml:space="preserve">
+    <value>Войти с новым паролем</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Социальные сети</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Проверочный код</value>
+  </data>
+  <data name="CallHistory" xml:space="preserve">
+    <value>Журнал звонков</value>
+  </data>
+  <data name="CreateAnOrderr" xml:space="preserve">
+    <value>Создать заявку</value>
+  </data>
+  <data name="ManageAttachments" xml:space="preserve">
+    <value>Управление вложениями</value>
+  </data>
+  <data name="MonitoringCoupons" xml:space="preserve">
+    <value>Мониторинг талонов</value>
+  </data>
+  <data name="OperatorStatuses" xml:space="preserve">
+    <value>Статусы операторов</value>
+  </data>
+  <data name="LoadingDataTable" xml:space="preserve">
+    <value>Идет загрузка таблицы с данными, пожалуйста, подождите...</value>
+  </data>
+  <data name="LoadingFilters" xml:space="preserve">
+    <value>Загрузка фильтров...</value>
+  </data>
+  <data name="LoadingFolders" xml:space="preserve">
+    <value>Загрузка папок...</value>
+  </data>
+  <data name="ReSubMissionsRequest" xml:space="preserve">
+    <value>Повторная подача обращения</value>
+  </data>
+  <data name="OnRating" xml:space="preserve">
+    <value>На оценку</value>
+  </data>
+  <data name="AnswerQuality" xml:space="preserve">
+    <value>Качество ответа</value>
+  </data>
+  <data name="KindOfReceiveAKZh" xml:space="preserve">
+    <value>С АКЖ</value>
+  </data>
+  <data name="SHUNO" xml:space="preserve">
+    <value>ШУНО</value>
+  </data>
+  <data name="InterestingAppeal" xml:space="preserve">
+    <value>Интересное обращение</value>
+  </data>
+  <data name="CallerPhone" xml:space="preserve">
+    <value>Телефон звонящего</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Этаж</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Населенный пункт</value>
+  </data>
+  <data name="Porch" xml:space="preserve">
+    <value>Подъезд</value>
+  </data>
+  <data name="Where" xml:space="preserve">
+    <value>Где</value>
+  </data>
+  <data name="TypeOfResponce" xml:space="preserve">
+    <value>Тип обращения</value>
+  </data>
+  <data name="BreifSummary" xml:space="preserve">
+    <value>Краткое содержание</value>
+  </data>
+  <data name="commentG" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="DateOccurrence" xml:space="preserve">
+    <value>Дата возникновения</value>
+  </data>
+  <data name="ImmediateThreatLife" xml:space="preserve">
+    <value>Непосредственная угроза жизни</value>
+  </data>
+  <data name="ImmediateThreatSupp" xml:space="preserve">
+    <value>Непосредственная угроза имуществу</value>
+  </data>
+  <data name="IncidentCategory" xml:space="preserve">
+    <value>Категория инцидента</value>
+  </data>
+  <data name="Urgency" xml:space="preserve">
+    <value>Срочность</value>
+  </data>
+</root>

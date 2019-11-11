@@ -1,0 +1,1079 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Мекенжайды енгізіңіз</value>
+  </data>
+  <data name="EnterAnswerForAppeal" xml:space="preserve">
+    <value>Өтініш бойынша жауап мәтінін енгізіңіз</value>
+  </data>
+  <data name="AppealAnswer" xml:space="preserve">
+    <value>Жауап</value>
+  </data>
+  <data name="AppealAnswerText" xml:space="preserve">
+    <value>Жауап мәтіні</value>
+  </data>
+  <data name="AppealCategory" xml:space="preserve">
+    <value>Өтініш санаты</value>
+  </data>
+  <data name="AppealDetailDeffinition" xml:space="preserve">
+    <value>Өтініштің толығырақ сипаттамасын көрсету</value>
+  </data>
+  <data name="AppealerBIN" xml:space="preserve">
+    <value>Өтініш берушінің БСН</value>
+  </data>
+  <data name="AppealerContactNumber" xml:space="preserve">
+    <value>Өтініш берушінің байланыс нөмірі</value>
+  </data>
+  <data name="DocumentNumber" xml:space="preserve">
+    <value>Құжат нөмірі</value>
+  </data>
+  <data name="AppealerFullName" xml:space="preserve">
+    <value>Өтініш берушінің аты-жөні</value>
+  </data>
+  <data name="GetPassword" xml:space="preserve">
+    <value>Құпиясөзді алу</value>
+  </data>
+  <data name="AppealerIIN" xml:space="preserve">
+    <value>Өтініш берушінің ЖСН</value>
+  </data>
+  <data name="AppealerInfo" xml:space="preserve">
+    <value>Өтініш беруші туралы ақпарат</value>
+  </data>
+  <data name="AppealerLastName" xml:space="preserve">
+    <value>Өтініш берушінің әкесінің аты</value>
+  </data>
+  <data name="AppealerLivingAddress" xml:space="preserve">
+    <value>Тұрғылықты мекенжайы</value>
+  </data>
+  <data name="AppealerLivingAddressForAnswer" xml:space="preserve">
+    <value>Ресми жауапты жіберуге арналған тұрғылықты мекенжайды енгізіңіз</value>
+  </data>
+  <data name="AppealerName" xml:space="preserve">
+    <value>Өтініш берушінің аты</value>
+  </data>
+  <data name="AppealerOrganizationName" xml:space="preserve">
+    <value>Ұйымның атауы</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Құпиясөз</value>
+  </data>
+  <data name="AppealerSurname" xml:space="preserve">
+    <value>Өтініш берушінің тегі</value>
+  </data>
+  <data name="AppealerType" xml:space="preserve">
+    <value>Өтініш берушінің түрі</value>
+  </data>
+  <data name="AppealIncedentAddress" xml:space="preserve">
+    <value>Проблема мекенжайы</value>
+  </data>
+  <data name="AppealInformation" xml:space="preserve">
+    <value>Өтініш туралы ақпарат</value>
+  </data>
+  <data name="AppealInstruction" xml:space="preserve">
+    <value>1. Жалпы ережелер
+        1.1. Осы Пайдаланушы келісімі (бұдан әрі - Келісім) Senim109 веб-портал мен оның компоненттерінің Пайдаланушысы мен Иегерінің/Әкімгердің арасындағы өзара қарым-қатынасты реттеуді.
+       1.2. Осы Келісімде келесі түсініктемелер пайдаланылады: 
+        1) Senim109 веб-порталы (бұдан әрі  – Портал) – өмірлік ситуациялар бойынша барлық ақпаратқа қол жеткізудің бірыңғай терезесі түріндегі ақпараттық жүйесі; 
+        2) Портал компоненттері – ақпаратты және (немесе) сервистерді ұсынуға мамандандырылған Порталдың бөліктері; 
+        3) Портал және оның компоненттерінің иегері/әкімгері (бұдан әрі– Иегер/Әкімгер). Қарағанды облысының ақпараттандыру, мемлекеттік қызметтер көрсету және архивтер басқармасы» мемлекеттік мекемесінің «Бірыңғай үйлестіру орталығы» коммуналдық мемлекеттік мекемесі;
+        4) Портал және оның компоненттерінің пайдаланушысы (бұдан әрі – Пайдаланушы) – осы Келісімнің талаптарын қабылдаған, Порталда және оның компоненттерінде тіркелген, Порталда берілген ақпаратты пайдаланатын кез келген жеке немесе заңды тұлға;
+        5) хеш-код – бұзудан қорғауды қамтамасыз ету үшін нақты алгоритм бойынша құпиясөзді түрлендіру әдісі. 
+        1.3. Осы Келісімде пайдаланылатын барлық өзге терминдер мен анықтамалар Қазақстан Республикасының қолданыстағы заңнамасына сәйкес талқылануы тиіс.  
+        2. Келісім мәні 
+        2.1. Осы Келісім бұқаралық оферта болып табылады. Портал мен оның компоненттеріне қол жеткізгеннен бастап Пайдаланушы осы Келісімге қосылған және оның барлық талаптарын қабылдаған болып саналады. 
+        2.2. Иегер/Әкімгер кез келген уақытта біржақты тәртіпте осы Келісімнің талаптарын өзгертуге құқылы. Мұндай өзгерістер осы Келісімнің бұрынғы версиясы өз күшін біржолғы жоғалтқаннан кейін Порталда Келісімнің жаңа нұсқасын орналастырған сәттен бастап күнтізбелік 3 (үш) күн өткеннен кейін заңды күшіне енеді.
+        2.3. Пайдаланушы енгізілген өзгерістермен келіспеген жағдайда, ол Порталға және оның компоненттеріне қол жеткізуден бас тартуға және Портал және оның компоненттерінің материалдары мен сервистерін пайдаланудан бас тартуға міндетті. 
+        2.4. Портал компоненттерін пайдалануды Пайдаланушы Порталдың Жеке кабинетінде орналастырған оларды пайдалану бойынша нұсқаулықтарға сәйкес жүзеге асырады. 
+        2.5. Порталда тіркеу нысаны бойынша Пайдаланушы көрсеткен электрондық мекенжай келесі жағдайларда хабарламаларды алуға арналған: 
+        1) Пайдаланушы қызметтік хабарламаларды алуға келісімі; 
+        2) құпиясөзді қалпына келтіруге, уақытша құпиясөзді алуға; 
+        3) қайтадан қалыптастырылған жаңа құпиясөзді алуға. 
+        2.6. Осы Келісімге қол қоя отырып, Пайдаланушы осы арқылы дербес деректерді және Пайдаланушы Порталда ұсынылған ақпараттың сапасын жақсарту мақсатында ұсынған кез келген мәліметтерді жинауға, өңдеуге, сақтауға, жүктеуге және пайдалануға жазбаша келісімін береді.  
+        3. Тараптардың құқықтары мен міндеттері 
+        3.1. Иегер/Әкімгер: 
+        3.1.1. Қажет болған жағдайда, Пайдаланушы енгізген деректердің дұрыстығын, оның ішінде мемлекеттік органдарға және өзге ұйымдарға жүгіну арқылы тексеруге. 
+        3.1.2. Пайдаланушы осы Келісімнің шарттарын бұзған жағдайда, Пайдаланушыны тіркеуден бас тартуға, Пайдаланушының есептік жазбасын жоюға немесе бұғаттауға. 
+        3.1.3. Пайдаланушыға коммуникациялық технологиялардың көмегімен ақпараттық сипаттағы хабарламаны жіберуге құқылы. 
+        3.2. Иегер/Әкімгер: 
+        3.2.1. Пайдаланушының дербес деректерінің құпиялылығын Пайдаланушының немесе оның заңды өкілінің келісімінсіз немесе өзге заңды негіздеменің болуын жарияламау және тарату арқылы қамтамасыз етуге. 
+        3.2.2. Портал және оның компоненттерінің жұмысқа қабілеттілігін қамтамасыз етуге. 
+        3.2.3. Деректермен алмасу үдерісімен байланысты емес үшінші тұлғалардан өзіне берілген, Қазақстан Республикасы заңнамасында көзделген жағдайларды қоспағанда, Пайдаланушыға қол жеткізу үшін хеш-код түрінде жүйеде түрлендірілген және сақталынған құпиясөзді құпия сақтауға міндетті. 
+        3.3. Пайдаланушы: 
+        3.3.1. Иегерге/Әкімгерге Порталда тіркелу нысанында ұсынылған немесе оның компоненттерін пайдалану кезіндегі тармақтар бойынша толық және нақты ақпаратты ұсынуға. 
+        3.3.2. Қазақстан Республикасы заңнамасын немесе халықаралық құқықтар нормаларын, оның ішінде зияткерлік меншік, авторлық және/немесе іргеоес құқықтар саласын бұзатын ретінде қарастырылуы мүмкін іс-әрекеттерді қабылдамауға міндетті.
+    </value>
+  </data>
+  <data name="AppealSend" xml:space="preserve">
+    <value>Өтінішті беру</value>
+  </data>
+  <data name="AppealText" xml:space="preserve">
+    <value>Өтініш мәтіні</value>
+  </data>
+  <data name="AppealTheme" xml:space="preserve">
+    <value>Өтініш тақырыбы</value>
+  </data>
+  <data name="AppealType" xml:space="preserve">
+    <value>Өтініш түрі</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Қоса берілген файл</value>
+  </data>
+  <data name="AttachmentAction" xml:space="preserve">
+    <value>Файлды қосу</value>
+  </data>
+  <data name="AttachmentActionText" xml:space="preserve">
+    <value>Файлдарды қосу үшін басыңыз</value>
+  </data>
+  <data name="AttachmentCaption" xml:space="preserve">
+    <value>Өтінішке файлдарды қосыңыз</value>
+  </data>
+  <data name="AttachmentDeffinition" xml:space="preserve">
+    <value>Өтініште көрсетілген фактілерді растау үшін Сіз файлдарды (сурет, видео, құжаттардың көшірмелері және т.с.с.) қоса аласыз. Файлдардың жалпы көлемі 20 МБ аспауы тиіс.</value>
+  </data>
+  <data name="btnAnswer" xml:space="preserve">
+    <value>Жауап беру</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>Артқа қарай</value>
+  </data>
+  <data name="btnCabinetLogin" xml:space="preserve">
+    <value>Жеке кабинетке кіру</value>
+  </data>
+  <data name="btnClose" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="btnCreateAppeal" xml:space="preserve">
+    <value>Өтінішті беру</value>
+  </data>
+  <data name="btnEmployeeLogin" xml:space="preserve">
+    <value>Қызметкер ретінде кіру</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Мәндерді тастау</value>
+  </data>
+  <data name="btnSendAppeal" xml:space="preserve">
+    <value>Тексеруге жіберу</value>
+  </data>
+  <data name="CaptionPlaceHolder" xml:space="preserve">
+    <value>Сипаттаманы енгізіңіз</value>
+  </data>
+  <data name="checkAnoutherAppeals" xml:space="preserve">
+    <value>Пайдаланушының басқа өтініштерін тексеру</value>
+  </data>
+  <data name="CheckInfo" xml:space="preserve">
+    <value>Енгізілген деректерді тексеріңіз</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Қаласы</value>
+  </data>
+  <data name="Commentary" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="Doublicate" xml:space="preserve">
+    <value>Дубликат</value>
+  </data>
+  <data name="DublicateAdd" xml:space="preserve">
+    <value>Тапсырмамен дубликат ретінде қосу</value>
+  </data>
+  <data name="DublicateResultFalse" xml:space="preserve">
+    <value>Дубликаттарды іздеу нәтижелер бермеді</value>
+  </data>
+  <data name="DublicateSearch" xml:space="preserve">
+    <value>Ұқсас өтініштерді іздеу</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmployeeLogin" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="Flat" xml:space="preserve">
+    <value>Пәтер</value>
+  </data>
+  <data name="House" xml:space="preserve">
+    <value>Үй</value>
+  </data>
+  <data name="IsResident" xml:space="preserve">
+    <value>ҚР резиденті</value>
+  </data>
+  <data name="Legal" xml:space="preserve">
+    <value>Заңды тұлға</value>
+  </data>
+  <data name="MapCaption" xml:space="preserve">
+    <value>Мекенжайды толтырған кезде картадағы маркер автоматты түрде орнатылады. Егер координаттар дұрыс болмаса, Сіз оларды өзгерте аласыз. Біржолғы басу маркерді орнатады.</value>
+  </data>
+  <data name="MapDeffinition" xml:space="preserve">
+    <value>Мекенжайды енгізуді бастаңыз және жүйе нұсқаларды ұсынады немесе картадағы нүктені көрсетеді.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Жоқ</value>
+  </data>
+  <data name="Physical" xml:space="preserve">
+    <value>Жеке тұлға</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Алдын ала қарау</value>
+  </data>
+  <data name="QuickAnswer" xml:space="preserve">
+    <value>Тез жауап</value>
+  </data>
+  <data name="RequiredFileds" xml:space="preserve">
+    <value>Өтініш деректерін енгізіңіз, міндетті түрде толтырылуы тиіс жолақтар белгіленген*.</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Көшесі</value>
+  </data>
+  <data name="UserAgreement" xml:space="preserve">
+    <value>Пайдаланушы келісімі</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Иә</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Аудан</value>
+  </data>
+  <data name="FioAbbr" xml:space="preserve">
+    <value>ТӘЖ</value>
+  </data>
+  <data name="IinAbbr" xml:space="preserve">
+    <value>ЖСН</value>
+  </data>
+  <data name="BinAbbr" xml:space="preserve">
+    <value>ЖСН</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>КЕЛІСЕМІН</value>
+  </data>
+  <data name="AppealAccept" xml:space="preserve">
+    <value>Өтінішті растау</value>
+  </data>
+  <data name="ApplicantFIO" xml:space="preserve">
+    <value>Өтініш берушінің ТАЖ</value>
+  </data>
+  <data name="ApplicantIin" xml:space="preserve">
+    <value>Өтініш берушінің ЖСН</value>
+  </data>
+  <data name="ApplicantType" xml:space="preserve">
+    <value>Өтініш берушінің түрі</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Қоса берілген файл</value>
+  </data>
+  <data name="AttachScanCopy" xml:space="preserve">
+    <value>Өтініштің скан-көшірмесін бекітіңіз</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Болдырмау</value>
+  </data>
+  <data name="CancelTicket" xml:space="preserve">
+    <value>ТАЛОНДЫ БОЛДЫРМАУ</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Санаты</value>
+  </data>
+  <data name="CategoryRequired" xml:space="preserve">
+    <value>Категорияны таңдау қажет</value>
+  </data>
+  <data name="CheckEnteredData" xml:space="preserve">
+    <value>ЕНГІЗІЛГЕН МӘЛІМЕТТЕРДІ ТЕКСЕРІҢІЗ</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Таңдаңыз</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Түсініктеме</value>
+  </data>
+  <data name="CreateAppeal" xml:space="preserve">
+    <value>Өтініш беру</value>
+  </data>
+  <data name="CreateFullAppeal" xml:space="preserve">
+    <value>Жазбаша хабарламаны құру</value>
+  </data>
+  <data name="EnterCodeFromSms" xml:space="preserve">
+    <value>Sms-хабарламадағы кодты енгізіңіз</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>ШЫҒУ</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>ЭКСПОРТТАУ</value>
+  </data>
+  <data name="IfDoesntGetSmsCode" xml:space="preserve">
+    <value>Егер Сіз 2-3 минут ішінде кодты алмасаңыз, қайталап көріңіз</value>
+  </data>
+  <data name="IncidentAddress" xml:space="preserve">
+    <value>Проблема мекенжайы</value>
+  </data>
+  <data name="Kind" xml:space="preserve">
+    <value>Өтініш түрі</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>КІРУ</value>
+  </data>
+  <data name="Microdistrict" xml:space="preserve">
+    <value>М-аудан</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>ӘРІ ҚАРАЙ</value>
+  </data>
+  <data name="NotAgree" xml:space="preserve">
+    <value>КЕЛІСПЕЙМІН</value>
+  </data>
+  <data name="NotChoosen" xml:space="preserve">
+    <value>Көрсетілмеген</value>
+  </data>
+  <data name="NotExists" xml:space="preserve">
+    <value>Жоқ</value>
+  </data>
+  <data name="OpenUserAgreement" xml:space="preserve">
+    <value>ПАЙДАЛАНУШЫ КЕЛІСІМІН АШУ</value>
+  </data>
+  <data name="ReceptionOfCitizens" xml:space="preserve">
+    <value>АЗАМАТТАРДЫ ҚАБЫЛДАУ</value>
+  </data>
+  <data name="RedirectTicket" xml:space="preserve">
+    <value>ТАЛОНДЫ ҚАЙТА ТАҒАЙЫНДАУ</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Осы жолды толтыру қажет</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Мәртебе</value>
+  </data>
+  <data name="StatusAway" xml:space="preserve">
+    <value>КЕТУ</value>
+  </data>
+  <data name="StatusDinner" xml:space="preserve">
+    <value>ТҮСКІ ҮЗІЛІС</value>
+  </data>
+  <data name="StatusOffline" xml:space="preserve">
+    <value>ЖҰМЫСТЫҢ АЯҚТАЛУЫ</value>
+  </data>
+  <data name="StatusOnline" xml:space="preserve">
+    <value>ДАЙЫН</value>
+  </data>
+  <data name="TicketNumber" xml:space="preserve">
+    <value>ТАЛОН НӨМІРІ</value>
+  </data>
+  <data name="ToMainPage" xml:space="preserve">
+    <value>БАСТЫ БЕТКЕ</value>
+  </data>
+  <data name="TroubleDescription" xml:space="preserve">
+    <value>Өтініш мәтіні</value>
+  </data>
+  <data name="TroubleShortDescription" xml:space="preserve">
+    <value>Қысқаша мазмұны</value>
+  </data>
+  <data name="WikiBase" xml:space="preserve">
+    <value>БІЛІМ БАЗАСЫ</value>
+  </data>
+  <data name="AtLeastOneNumberRequired" xml:space="preserve">
+    <value>Кемінде 1 нөмір көрсетілуі тиіс</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Растау</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Әрекет</value>
+  </data>
+  <data name="ActiveAppeals" xml:space="preserve">
+    <value> Senim109 ПОРТАЛЫНДАҒЫ БЕЛСЕНДІ ЖҮГІНУЛЕР</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Толықтыру</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Түсініктеме қосу</value>
+  </data>
+  <data name="AdditionalAbilities" xml:space="preserve">
+    <value>Қосымша мүмкіндіктер</value>
+  </data>
+  <data name="Additionally" xml:space="preserve">
+    <value>Қосымша</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Мекенжай</value>
+  </data>
+  <data name="AddressOnMap" xml:space="preserve">
+    <value>Картадағы мекенжай</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>барлығы</value>
+  </data>
+  <data name="KaragandaDevCenter" xml:space="preserve">
+    <value>Қарағанды бірыңғай үйлестіру орталығы</value>
+  </data>
+  <data name="AnswerInAttachment" xml:space="preserve">
+    <value>Жауап тіркемеде</value>
+  </data>
+  <data name="AppealCard" xml:space="preserve">
+    <value>Жүгіну карточкасы</value>
+  </data>
+  <data name="AppealContent" xml:space="preserve">
+    <value>Жүгінудің мазмұны</value>
+  </data>
+  <data name="AppealCreatedWithNumber" xml:space="preserve">
+    <value>Сіздің жүгінуіңіз нөмірімен қабылданды </value>
+  </data>
+  <data name="AppealCreateRights" xml:space="preserve">
+    <value>Жазбаша жүгіну тәртібі</value>
+  </data>
+  <data name="AppealData" xml:space="preserve">
+    <value>Өтінім бойынша деректер</value>
+  </data>
+  <data name="AppealDataChange" xml:space="preserve">
+    <value>Өтінім деректерінің өзгеруі</value>
+  </data>
+  <data name="AppealHistory" xml:space="preserve">
+    <value>Өтінім тарихы</value>
+  </data>
+  <data name="AppealInfo" xml:space="preserve">
+    <value>Жүгіну туралы ақпарат</value>
+  </data>
+  <data name="AppealJournal" xml:space="preserve">
+    <value>Жүгінулер журналы</value>
+  </data>
+  <data name="ApplicantInfo" xml:space="preserve">
+    <value>Өтініш беруші туралы ақпарат</value>
+  </data>
+  <data name="AppliedToWork" xml:space="preserve">
+    <value>Жұмысқа қабылданды</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Қолдану</value>
+  </data>
+  <data name="AreYouSureSendAppeal" xml:space="preserve">
+    <value>Сіз шынымен жүгінуді тексеруге жібергіңіз келе ме?</value>
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="ChooseExecutorFromList" xml:space="preserve">
+    <value>орындаушы тізімінен таңдаңыз</value>
+  </data>
+  <data name="ChooseYourPlace" xml:space="preserve">
+    <value>Өзіңіздің орныңызды көрсетіңіз</value>
+  </data>
+  <data name="ColumnsVisibilitySetup" xml:space="preserve">
+    <value>Бағандарды көрсетудің баптаулары</value>
+  </data>
+  <data name="ColumsChooserDescription" xml:space="preserve">
+    <value>Қанат белгісі, бағанның бейнелейтінін білдіреді, крест - жоқ</value>
+  </data>
+  <data name="ColumsChooserSetup" xml:space="preserve">
+    <value>Кестеде бағандарды көрсету баптаулары</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Түсініктемелер</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Ілеспе хат</value>
+  </data>
+  <data name="CreateAnotherOneQuestion" xml:space="preserve">
+    <value>Сіз осы өтініш беруші атынан тағы да жүгінгіңіз келе ме? </value>
+  </data>
+  <data name="CreateNewFilter" xml:space="preserve">
+    <value>Жаңа фильтр жасау</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Тапсыру мерзімі</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Мерзімі</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Жою</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Сипаттамасы</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Орындалды</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="DownloadRegistrationNotification" xml:space="preserve">
+    <value>Тіркеу туралы хабарламаны жүктеу</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Ұзақтылығы</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редакциялау</value>
+  </data>
+  <data name="EditCategories" xml:space="preserve">
+    <value>Санаттарды редакциялау</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Қызметкер</value>
+  </data>
+  <data name="EvaluationOfService" xml:space="preserve">
+    <value>Қызмет көрсету бағасы</value>
+  </data>
+  <data name="ExecutiveAgency" xml:space="preserve">
+    <value>Атқарушы орган</value>
+  </data>
+  <data name="Executor" xml:space="preserve">
+    <value>Орындаушы</value>
+  </data>
+  <data name="ExpectedOperator" xml:space="preserve">
+    <value>Күтілетін оператор</value>
+  </data>
+  <data name="FilterName" xml:space="preserve">
+    <value>Фильтр атауы</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Тарих</value>
+  </data>
+  <data name="LastChanges" xml:space="preserve">
+    <value>Соңғы өзгерістер</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>Бағасы</value>
+  </data>
+  <data name="MessageCameFrom" xml:space="preserve">
+    <value>Хабарлама қайдан келіп түсті</value>
+  </data>
+  <data name="NameOfDocument" xml:space="preserve">
+    <value>Құжаттың атауы</value>
+  </data>
+  <data name="NeedChangeStatusToReceptionCitizen" xml:space="preserve">
+    <value>Азаматтарды қабылдау үшін жағдайды өзгерту қажет</value>
+  </data>
+  <data name="NotAssigned" xml:space="preserve">
+    <value>Тағайындалмаған</value>
+  </data>
+  <data name="NotSpecified" xml:space="preserve">
+    <value>Көрсетілмеген</value>
+  </data>
+  <data name="OperatorNotChoosen" xml:space="preserve">
+    <value>Оператор таңдалмаған</value>
+  </data>
+  <data name="OutputDocuments" xml:space="preserve">
+    <value>Шығыс құжаттары</value>
+  </data>
+  <data name="PlannedDate" xml:space="preserve">
+    <value>Жоспарланған мерзімі</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Басымшылық</value>
+  </data>
+  <data name="Redirect" xml:space="preserve">
+    <value>Қайта жолдау</value>
+  </data>
+  <data name="RegistrationNotification" xml:space="preserve">
+    <value>Тіркелгендігі туралы хабарлама</value>
+  </data>
+  <data name="ResetFilter" xml:space="preserve">
+    <value>Фильтрді алып тастау</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сақтау</value>
+  </data>
+  <data name="ServiceInfo" xml:space="preserve">
+    <value>Қызметтік ақпарат</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Жағдайы </value>
+  </data>
+  <data name="TableSetupWindow" xml:space="preserve">
+    <value>Кестенің баптау терезесі</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Рахмет</value>
+  </data>
+  <data name="TicketRedirecting" xml:space="preserve">
+    <value>Талонды қайта тағайындау</value>
+  </data>
+  <data name="TicketsMonitoring" xml:space="preserve">
+    <value>Талондар мониторингі</value>
+  </data>
+  <data name="Who" xml:space="preserve">
+    <value>Кім</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Жұмыс орны</value>
+  </data>
+  <data name="MyFilters" xml:space="preserve">
+    <value>Менің фильтрларым</value>
+  </data>
+  <data name="AppealStatusClosed" xml:space="preserve">
+    <value>Аяқталды</value>
+  </data>
+  <data name="AppealStatusCreated" xml:space="preserve">
+    <value>Тіркелді</value>
+  </data>
+  <data name="AppealStatusInProcess" xml:space="preserve">
+    <value>АО жіберілгендер</value>
+  </data>
+  <data name="KindOfReceiveCallCenter" xml:space="preserve">
+    <value>Қоңырау бойынша</value>
+  </data>
+  <data name="KindOfReceiveOffice" xml:space="preserve">
+    <value>Талон бойынша</value>
+  </data>
+  <data name="KindOfReceivePortal" xml:space="preserve">
+    <value>Порталдан түскен</value>
+  </data>
+  <data name="KindOfReceiveReception" xml:space="preserve">
+    <value>Ресепшеннен</value>
+  </data>
+  <data name="LegalShort" xml:space="preserve">
+    <value>Заңды тұлға</value>
+  </data>
+  <data name="PhysicalShort" xml:space="preserve">
+    <value>Жеке тұлға</value>
+  </data>
+  <data name="TicketStatusHandledByOperator" xml:space="preserve">
+    <value>Оператормен өңделіп жатыр</value>
+  </data>
+  <data name="TicketStatusInQueue" xml:space="preserve">
+    <value>Кезекте</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Ықшам ауданы</value>
+  </data>
+  <data name="AppealStatusOnEstimation" xml:space="preserve">
+    <value>Жауап алынды</value>
+  </data>
+  <data name="AppealStatusQuickAnswer" xml:space="preserve">
+    <value>Жылдам жауап жіберілген</value>
+  </data>
+  <data name="Cabinet" xml:space="preserve">
+    <value>Жеке кабинет</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>Категорияны таңдаңыз</value>
+  </data>
+  <data name="ChooseSubCategory" xml:space="preserve">
+    <value>Ішкі категорияны таңдаңыз</value>
+  </data>
+  <data name="FailedVerification" xml:space="preserve">
+    <value>тексеруден өтпеді</value>
+  </data>
+  <data name="KindOfReceiveSocialNetwork" xml:space="preserve">
+    <value>Әлеуметтік желіден</value>
+  </data>
+  <data name="MakeAppeal" xml:space="preserve">
+    <value>Өтініш құрастыру</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Анықтама</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Аудан</value>
+  </data>
+  <data name="RequiredFieldFormat" xml:space="preserve">
+    <value>"{0}" жолағы міндетті түрде толтырылу қажет</value>
+  </data>
+  <data name="RequiredMicrodistrictOrStreet" xml:space="preserve">
+    <value>"Микроаудан" немесе "Көше" жолағын толтыру қажет</value>
+  </data>
+  <data name="Resend" xml:space="preserve">
+    <value>Қайта жіберу</value>
+  </data>
+  <data name="TicketStatusCancelled" xml:space="preserve">
+    <value>Жойылды</value>
+  </data>
+  <data name="TicketStatusClosed" xml:space="preserve">
+    <value>Жабық</value>
+  </data>
+  <data name="TicketStatusSentToOperator" xml:space="preserve">
+    <value>Операторға жіберілген</value>
+  </data>
+  <data name="ViewAndEditUserPersonalData" xml:space="preserve">
+    <value>Пайдаланушының дербес деректерін қарап шығу және редакциялау</value>
+  </data>
+  <data name="WillAvailableAfter1Minute" xml:space="preserve">
+    <value>1 минуттан соң қол жетімді болады</value>
+  </data>
+  <data name="QueueLength" xml:space="preserve">
+    <value>Длина очереди</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Жаңа құпиясөз</value>
+    <comment>!</comment>
+  </data>
+  <data name="BudgetaryFundsAreRequired" xml:space="preserve">
+    <value>Бюджеттік ақша қажет па</value>
+  </data>
+  <data name="IncedentArea" xml:space="preserve">
+    <value>Проблемасы ауданы</value>
+  </data>
+  <data name="AppealStatusCanceled" xml:space="preserve">
+    <value>Отклонена</value>
+  </data>
+  <data name="Maslikhats" xml:space="preserve">
+    <value>Мәслихаттар</value>
+  </data>
+  <data name="AppealStatusRevision" xml:space="preserve">
+    <value>На доработке</value>
+  </data>
+  <data name="Registrator" xml:space="preserve">
+    <value>Тіркеуші</value>
+  </data>
+  <data name="ReceivedFrom" xml:space="preserve">
+    <value>Көзі</value>
+  </data>
+  <data name="SignedWithEds" xml:space="preserve">
+    <value>ЭЦП-мен қол қойылған</value>
+  </data>
+  <data name="CityAbbr" xml:space="preserve">
+    <value>қ.</value>
+  </data>
+  <data name="AreaAbbr" xml:space="preserve">
+    <value>а.</value>
+  </data>
+  <data name="StreetAbbr" xml:space="preserve">
+    <value>к-сы.</value>
+  </data>
+  <data name="HouseAbbr" xml:space="preserve">
+    <value>ү.</value>
+  </data>
+  <data name="FlatAbbr" xml:space="preserve">
+    <value>п.</value>
+  </data>
+  <data name="DistrictAbbr" xml:space="preserve">
+    <value>ш/а.</value>
+  </data>
+  <data name="RejectionLetter" xml:space="preserve">
+    <value>Бас тарту хат</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Назар аударыңыз</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Құпиясөзді ауыстыру</value>
+  </data>
+  <data name="CodeFromSMS" xml:space="preserve">
+    <value>SMS-тегі код</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Растау</value>
+  </data>
+  <data name="DisplayAppPhNum" xml:space="preserve">
+    <value>Өтінімді телефон нөмірі бойынша көрсету үшін</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Қате</value>
+  </data>
+  <data name="IinBin" xml:space="preserve">
+    <value>ИИН/БИН</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Дұрыс емес есептік деректер</value>
+  </data>
+  <data name="More1SMSReauest" xml:space="preserve">
+    <value>Бір минут ішінде смс жіберуге 1-ден аса сұрау жасалынды</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефоны</value>
+  </data>
+  <data name="PleaseWait_" xml:space="preserve">
+    <value>Күте тұруыңызды өтінеміз...</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профилі</value>
+  </data>
+  <data name="SelectSertificate" xml:space="preserve">
+    <value>Сертификатты таңдау</value>
+  </data>
+  <data name="SendVerirfiCode" xml:space="preserve">
+    <value>Өтінімді телефон нөмірі бойынша көрсету үшін</value>
+  </data>
+  <data name="SentCodeToPhoneNum" xml:space="preserve">
+    <value>Көрсетілген телефон нөміріне растау коды жіберілді</value>
+  </data>
+  <data name="SnapPhoneNumber" xml:space="preserve">
+    <value>Телефон нөмірін қосу</value>
+  </data>
+  <data name="SpecifyAuthSertificate" xml:space="preserve">
+    <value>ЖСН қосу үшін Сізге Auth сертификатын көрсету қажет</value>
+  </data>
+  <data name="ThinkPassToSignIn" xml:space="preserve">
+    <value>Кіруге арналған кодты құрастырыңыз</value>
+  </data>
+  <data name="TieInIin" xml:space="preserve">
+    <value>ЖСН қосу</value>
+  </data>
+  <data name="ToDisplayOrderIin" xml:space="preserve">
+    <value>Өтінімді ЖСН бойынша көрсету үшін</value>
+  </data>
+  <data name="AllReferences" xml:space="preserve">
+    <value>Барлық өтініштер</value>
+  </data>
+  <data name="AnswerHasNot" xml:space="preserve">
+    <value>Жауап әлі берілмеді</value>
+  </data>
+  <data name="AnswerRecevid" xml:space="preserve">
+    <value>Жауап берілді</value>
+  </data>
+  <data name="ApplicationNum" xml:space="preserve">
+    <value>Өтінімнің нөмірі</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Мұрағат</value>
+  </data>
+  <data name="AttachCopyAnswer" xml:space="preserve">
+    <value>Жауаптың көшірмесін қоса біріктіру</value>
+  </data>
+  <data name="ByEDS" xml:space="preserve">
+    <value>ЭЦҚ бойынша</value>
+  </data>
+  <data name="ByPhone" xml:space="preserve">
+    <value>Телефон бойынша</value>
+  </data>
+  <data name="Clone" xml:space="preserve">
+    <value>Клондау</value>
+  </data>
+  <data name="DeletingOrders" xml:space="preserve">
+    <value>Өтінімдерді жою</value>
+  </data>
+  <data name="Disapproved" xml:space="preserve">
+    <value>Мақұлданбады</value>
+  </data>
+  <data name="EditOfAppData" xml:space="preserve">
+    <value>Өтінім бойынша деректерді редакциялау</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Жаю</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Мерзімі аяқталуда</value>
+  </data>
+  <data name="ForgotYouPassword" xml:space="preserve">
+    <value>Құпиясөзді ұмытып қалдыңыз ба?</value>
+  </data>
+  <data name="GetSMSCode" xml:space="preserve">
+    <value>Смс кодты алу</value>
+  </data>
+  <data name="Incoming" xml:space="preserve">
+    <value>Кіріс</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Ақпарат</value>
+  </data>
+  <data name="InTheWork" xml:space="preserve">
+    <value>Жұмыста</value>
+  </data>
+  <data name="IsDisapproved" xml:space="preserve">
+    <value>Мақұлданбаған өтініштер</value>
+  </data>
+  <data name="LiginToYourAccount" xml:space="preserve">
+    <value>Жеке кабинетке кіру</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Сілтеме</value>
+  </data>
+  <data name="LinkEdited" xml:space="preserve">
+    <value>Сілтеме "Өтініш мәтіні" жолағында редакцияланады</value>
+  </data>
+  <data name="Overdue" xml:space="preserve">
+    <value>Мерзімі өткен</value>
+  </data>
+  <data name="SentPhoneEnterCode" xml:space="preserve">
+    <value>Көрсетілген телефон нөміріне код жіберілді. Кодты енгізіп, жаңа құпиясөз құрастырыңыз</value>
+  </data>
+  <data name="SentToIO" xml:space="preserve">
+    <value>ИО-ға жіберілді</value>
+  </data>
+  <data name="SignUpSignIn" xml:space="preserve">
+    <value>Тіркелу және кіру</value>
+  </data>
+  <data name="SingnInNewPassword" xml:space="preserve">
+    <value>Жаңа құпиясөзбен кіру</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Әлеуметтік желілер</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Пайдаланушы</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Тексеруге арналған код</value>
+  </data>
+  <data name="CallHistory" xml:space="preserve">
+    <value>Қоңыраулар журналы</value>
+  </data>
+  <data name="CreateAnOrderr" xml:space="preserve">
+    <value>Өтінімді құру</value>
+  </data>
+  <data name="ManageAttachments" xml:space="preserve">
+    <value>Қосымшалар басқару</value>
+  </data>
+  <data name="MonitoringCoupons" xml:space="preserve">
+    <value>Талондар мониторингі</value>
+  </data>
+  <data name="OperatorStatuses" xml:space="preserve">
+    <value>операторлардың статустары</value>
+  </data>
+  <data name="LoadingDataTable" xml:space="preserve">
+    <value>Мәліметтер кестесі жүктелуде, күте тұрыңыз...</value>
+  </data>
+  <data name="LoadingFilters" xml:space="preserve">
+    <value>Сүзгілерді жүктеу...</value>
+  </data>
+  <data name="LoadingFolders" xml:space="preserve">
+    <value>Бумаларды жүктеу...</value>
+  </data>
+  <data name="ReSubMissionsRequest" xml:space="preserve">
+    <value>Өтінішті қайта беру</value>
+  </data>
+  <data name="OnRating" xml:space="preserve">
+    <value>Бағалау</value>
+  </data>
+  <data name="AnswerQuality" xml:space="preserve">
+    <value>Сапасы бар</value>
+  </data>
+  <data name="KindOfReceiveAKZh" xml:space="preserve">
+    <value>С АКЖ</value>
+  </data>
+  <data name="SHUNO" xml:space="preserve">
+    <value>СЖБТ</value>
+  </data>
+  <data name="InterestingAppeal" xml:space="preserve">
+    <value>Интересное обращение</value>
+  </data>
+  <data name="CallerPhone" xml:space="preserve">
+    <value>Абоненттін телефоны</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Коды</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Қабат</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Тілі</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Қыстақ</value>
+  </data>
+  <data name="Porch" xml:space="preserve">
+    <value>Кіру</value>
+  </data>
+  <data name="Where" xml:space="preserve">
+    <value>Қайда</value>
+  </data>
+</root>

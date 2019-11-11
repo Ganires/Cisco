@@ -1,0 +1,287 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\CiscoService\\CiscoService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\BusinessDaysCalculator\\BusinessDaysCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\BusinessDaysCalculator\\BusinessDaysCalculator.csproj",
+        "projectName": "BusinessDaysCalculator",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\BusinessDaysCalculator\\BusinessDaysCalculator.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\CiscoService\\CiscoService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\CiscoService\\CiscoService.csproj",
+        "projectName": "CiscoService",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\CiscoService\\CiscoService.csproj",
+        "packagesPath": "C:\\Users\\gsit-asus1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\CiscoService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gsit-asus1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\OpenAlmaty\\OpenAlmaty.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\OpenAlmaty\\OpenAlmaty.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Common\\Common.csproj"
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj",
+        "projectName": "Constants",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\EmailSender\\EmailSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\EmailSender\\EmailSender.csproj",
+        "projectName": "EmailSender",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\EmailSender\\EmailSender.csproj"
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj"
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\OpenAlmaty\\OpenAlmaty.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\OpenAlmaty\\OpenAlmaty.csproj",
+        "projectName": "OpenAlmaty",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\OpenAlmaty\\OpenAlmaty.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\BusinessDaysCalculator\\BusinessDaysCalculator.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\BusinessDaysCalculator\\BusinessDaysCalculator.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Common\\Common.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\EmailSender\\EmailSender.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\EmailSender\\EmailSender.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\StateMachine\\StateMachine.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\StateMachine\\StateMachine.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Utils\\Utils.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj",
+        "projectName": "Resources",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Resources\\Resources.csproj"
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\StateMachine\\StateMachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\StateMachine\\StateMachine.csproj",
+        "projectName": "StateMachine",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\StateMachine\\StateMachine.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Constants\\Constants.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Interfaces\\Interfaces.csproj"
+              },
+              "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj": {
+                "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj",
+        "projectName": "Timers",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Timers\\Timers.csproj"
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Utils\\Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Utils\\Utils.csproj",
+        "projectName": "Utils",
+        "projectPath": "C:\\Users\\gsit-asus1\\Desktop\\Karaganda\\Utils\\Utils.csproj"
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    }
+  }
+}
